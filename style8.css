@@ -1,0 +1,26 @@
+#textl{
+    color: rgb(212, 42, 42);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: large;
+    text-shadow: #716b6b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #716b6b;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(9, 9, 9, 0.2);
+    padding: 18px 18px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
